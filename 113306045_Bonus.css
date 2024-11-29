@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.form-container {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightyellow;
+	padding: 5%;
+}
+
+form {
+	display: block;
+}
+
+.input-row, .textarea-row, .image-row {
+	overflow: hidden;
+	margin-bottom: 3%;
+}
+
+.input-row.two-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.two-columns {
+	display: flex;
+	gap: 1%;
+	width: 75%;
+	align-items: center;
+}
+
+.two-columns input {
+	width: 40%;
+}
+
+label {
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	text-align: right;
+}
+
+input, textarea {
+	float: left;
+	width: 75%;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: none;
+}
+
+.image-row img {
+	float: left;
+	width: 75%;
+	height: auto;
+	margin-left: 0.1%;
+}
